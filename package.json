@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/International/object-simple-keymapper/issues"
   },
-  "homepage": "https://github.com/International/object-simple-keymapper#readme"
+  "homepage": "https://github.com/International/object-simple-keymapper#readme",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "should": "^8.0.2"
+  }
 }
