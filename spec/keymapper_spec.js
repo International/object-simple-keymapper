@@ -6,8 +6,6 @@ describe("KeyMapper",function() {
   it("maps property x to y on a object", function() {
     var a = {x:20};
     var b = {};
-    console.log("keyMapper is");
-    console.log(KeyMapper);
     KeyMapper.performMapping(a, b, {
       remap: {
         x: "y"
