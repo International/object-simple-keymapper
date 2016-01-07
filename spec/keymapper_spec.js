@@ -26,7 +26,7 @@ describe("KeyMapper",function() {
   });
 
   it("takes only properties x and y from an object, and remaps y as z", function() {
-    var a = {x:20, y:20, z:30};
+    var a = {x:10, y:20, z:30};
     var b = {};
     KeyMapper.performMapping(a, b, {
       only: ["x","y"],
@@ -36,6 +36,8 @@ describe("KeyMapper",function() {
     });
     should.exist(b.x);
     should.exist(b.z);
+    b.x.should.equal(10);
+    b.z.should.equal(20);
     should.not.exist(b.y);
   });
 
