@@ -1,0 +1,23 @@
+{
+  "name": "object-simple-keymapper",
+  "version": "0.0.0",
+  "description": "Simple package to map object keys from one object to the other",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/International/object-simple-keymapper.git"
+  },
+  "keywords": [
+    "object",
+    "properties"
+  ],
+  "author": "George Opritescu",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/International/object-simple-keymapper/issues"
+  },
+  "homepage": "https://github.com/International/object-simple-keymapper#readme"
+}
