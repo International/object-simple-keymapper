@@ -9,6 +9,8 @@
 ## Usage
 
 ```js
+var KeyMapper = require("object-simple-keymapper");
+
 var a = {x:10, y:20, z:30};
 var b = {};
 KeyMapper.performMapping(a, b, {
